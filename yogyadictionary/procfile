@@ -1,1 +1,1 @@
-web: gunicorn yogyadictionary.wsgi --log-file -
+web: gunicorn yogyadictionary.wsgi:application --log-file -
