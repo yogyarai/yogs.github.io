@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans&family=Poppins&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("/static/pic8.jpg");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    /* justify-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* opacity: ; */
+
+}
+
+.main2 {
+    display: flex;
+    width: 34vw;
+
+    height: 15vh;
+    background: linear-gradient(to right, rgb(58 54 59), rgb(183 177 177));
+
+    justify-content: center;
+    align-items: center;
+    /* margin: 9px 12px;
+    padding: 4px 5px; */
+    border-radius: 20px;
+
+    margin-bottom: 5px;
+
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color: wheat;
+    font-size: 40px;
+}
+
+.container {
+    background: linear-gradient(to right, rgb(106 73 73), rgb(71 27 82));
+    width: 34vw;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+    border-radius: 20px;
+}
+
+
+
+.btn {
+    background-color: rgb(98, 59, 174);
+    width: 97px;
+    height: 42px;
+    font-size: 17px;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid rgb(98, 59, 174);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #686d72;
+}
+
+.form-control {
+    width: 301px;
+    height: 42px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(71 27 82), rgb(255 215 215));
+    color: #00000096;
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 14px;
+    margin-bottom: 24px;
+    width: 60vw;
+    height: 18vh;
+
+}
+
+.container2 {
+    background: linear-gradient(to right, rgb(255 215 215), rgb(71 27 82));
+    width: 60vw;
+    height: 43vh;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.ans {
+    text-align: center;
+    color: white;
+
+    margin-top: 29px;
+}
+
+
+@media (max-width: 1400px) {
+
+    .main2 {
+        width: 90vw;
+        height: 14vh;
+
+    }
+
+    .container {
+
+        width: 90vw;
+        height: 29vh;
+    }
+
+    .form-control {
+        margin-bottom: 7px;
+        margin-left: 32px;
+
+    }
+
+    .btn {
+
+        margin-left: 32px;
+
+    }
+
+    .con {
+
+        font-size: 19px;
+        width: 88vw;
+        height: 12vh;
+
+    }
+
+    .container2 {
+        width: 90vw;
+        height: 28vh;
+        font-size: 15px;
+        border-radius: 21px;
+    }
+}

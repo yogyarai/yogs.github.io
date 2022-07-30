@@ -1,0 +1,40 @@
+
+
+{% load static %}
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yogya Dictionary</title>
+  
+
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+
+  
+
+ <body >
+  <div class="main  ">
+    {% comment %} <img src="/static/pic1.png" alt=""> {% endcomment %}
+    <div class="main2">
+      <h1>Hey you can search</h1>
+    </div>
+
+
+
+    <div class="container">
+      <form action=" word" class="d-flex" role="search">
+        <input class="form-control me-2" name="search" type="search" placeholder="Search for a word"
+          aria-label="Search">
+        <button class="btn" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
